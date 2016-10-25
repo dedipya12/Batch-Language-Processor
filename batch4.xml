@@ -1,0 +1,8 @@
+<batch>
+	<filename id="file1" path="numberdata.txt" />
+	<filename id="file2" path="avgout1.txt" />
+	<pipecmd id='pipe1'>
+		<exec id="addLines" path="java.exe" args="-jar addLines.jar" in='file1' />
+		<exec id="avgFile" path="java.exe" args="-jar avgFile.jar" out='file2' />
+	</pipecmd>
+</batch>

@@ -1,0 +1,7 @@
+<batch>
+	<filename id="file1" path="randomwords.txt" />
+	<filename id="file2" path="sortedwords.txt" />
+	<exec id="cmd1" path="sort" in='file1' out='file2' />
+	<filename id="file3" path="reversesort.txt" />
+	<exec id="cmd2" path="sort" args='/R' in='file1' out='file3' />
+</batch>

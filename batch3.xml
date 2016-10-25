@@ -1,0 +1,7 @@
+<batch>
+	<filename id="file1" path="numberdata.txt" />
+	<filename id="file2" path="sumout.txt" />
+	<exec id="cmd1" path="java.exe" args="-jar addLines.jar" in='file1' out='file2' />
+	<filename id="file3" path="avgout.txt" />
+	<exec id="cmd2" path="java.exe" args="-jar avgFile.jar" in='file2' out='file3' />
+</batch>

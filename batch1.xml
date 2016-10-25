@@ -1,0 +1,4 @@
+<batch>
+	<filename id="file1" path="dirout.txt" />
+	<exec id="cmd1" path="cmd" args='/c dir' out='file1' />
+</batch>
